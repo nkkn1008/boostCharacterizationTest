@@ -1,0 +1,115 @@
+﻿2014/04/09 23:04:43 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\gmock_test.vcxproj" (Rebuild ターゲット)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (gmock.vcxproj, gmock_main.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I..\.. /I../../gtest/include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt /bigobj ..\..\test\gmock_all_test.cc
+         gmock_all_test.cc
+     1>C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-generated-function-mockers_test.cc(134): warning C4373: 'testing::gmock_generated_function_mockers_test::MockFoo::TakesConst': 仮想関数は 'testing::gmock_generated_function_mockers_test::FooInterface::TakesConst' をオーバーライドします。前バージョンのコンパイラは、パラメーターの違いが const/volatile 修飾子に限られる場合はオーバーライドしませんでした。
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-generated-function-mockers_test.cc(91) : 'testing::gmock_generated_function_mockers_test::FooInterface::TakesConst' の宣言を確認してください。
+     1>C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2657): warning C4267: '引数' : 'size_t' から 'const unsigned int' に変換しました。データが失われているかもしれません。
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2651): クラス テンプレート のメンバー関数 'testing::gmock_matchers_test::FloatingPointTest<float>::FloatingPointTest(void)' のコンパイル中
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2841) : コンパイルされたクラスの テンプレート のインスタンス化 'testing::gmock_matchers_test::FloatingPointTest<float>::FloatingPointTest(void)' の参照を確認してください
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2841) : コンパイルされたクラスの テンプレート のインスタンス化 'testing::gmock_matchers_test::FloatingPointTest<float>' の参照を確認してください
+     1>C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2659): warning C4267: '引数' : 'size_t' から 'const unsigned int' に変換しました。データが失われているかもしれません。
+     1>C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2661): warning C4267: '引数' : 'size_t' から 'const unsigned int' に変換しました。データが失われているかもしれません。
+     1>C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2662): warning C4267: '引数' : 'size_t' から 'const unsigned int' に変換しました。データが失われているかもしれません。
+     1>C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2663): warning C4267: '引数' : 'size_t' から 'const unsigned int' に変換しました。データが失われているかもしれません。
+     1>C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2666): warning C4267: '引数' : 'size_t' から 'const unsigned int' に変換しました。データが失われているかもしれません。
+     1>C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-matchers_test.cc(2668): warning C4267: '引数' : 'size_t' から 'const unsigned int' に変換しました。データが失われているかもしれません。
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 'std::_Copy_impl' の宣言を確認してください。
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\include\gmock/gmock-more-actions.h(194) : コンパイルされたクラスの テンプレート のインスタンス化 '_OutIt std::copy<first_type,const _Ty>(_InIt,_InIt,_OutIt)' の参照を確認してください
+                 with
+                 [
+                     _OutIt=int *
+         ,            first_type=int *
+         ,            _Ty=int *
+         ,            _InIt=int *
+                 ]
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\include\gmock/gmock-generated-actions.h(673) : コンパイルされたクラスの テンプレート のインスタンス化 'void testing::SetArrayArgumentActionP2<1,int *,int *>::gmock_Impl<F>::gmock_PerformImpl<A0,A1,A2,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg>(const std::tuple<bool,int,A3> &,arg0_type,arg1_type,arg2_type,arg3_type,arg4_type,arg5_type,arg6_type,arg7_type,arg8_type,arg9_type) const' の参照を確認してください
+                 with
+                 [
+                     F=MyFunction
+         ,            A0=bool
+         ,            A1=int *
+         ,            A2=char *
+         ,            A3=char *
+         ,            arg0_type=bool
+         ,            arg1_type=int *
+         ,            arg2_type=char *
+         ,            arg3_type=testing::internal::ExcessiveArg
+         ,            arg4_type=testing::internal::ExcessiveArg
+         ,            arg5_type=testing::internal::ExcessiveArg
+         ,            arg6_type=testing::internal::ExcessiveArg
+         ,            arg7_type=testing::internal::ExcessiveArg
+         ,            arg8_type=testing::internal::ExcessiveArg
+         ,            arg9_type=testing::internal::ExcessiveArg
+                 ]
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\include\gmock/gmock-generated-actions.h(673) : コンパイルされたクラスの テンプレート のインスタンス化 'void testing::SetArrayArgumentActionP2<1,int *,int *>::gmock_Impl<F>::gmock_PerformImpl<A0,A1,A2,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg,testing::internal::ExcessiveArg>(const std::tuple<bool,int,A3> &,arg0_type,arg1_type,arg2_type,arg3_type,arg4_type,arg5_type,arg6_type,arg7_type,arg8_type,arg9_type) const' の参照を確認してください
+                 with
+                 [
+                     F=MyFunction
+         ,            A0=bool
+         ,            A1=int *
+         ,            A2=char *
+         ,            A3=char *
+         ,            arg0_type=bool
+         ,            arg1_type=int *
+         ,            arg2_type=char *
+         ,            arg3_type=testing::internal::ExcessiveArg
+         ,            arg4_type=testing::internal::ExcessiveArg
+         ,            arg5_type=testing::internal::ExcessiveArg
+         ,            arg6_type=testing::internal::ExcessiveArg
+         ,            arg7_type=testing::internal::ExcessiveArg
+         ,            arg8_type=testing::internal::ExcessiveArg
+         ,            arg9_type=testing::internal::ExcessiveArg
+                 ]
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\include\gmock/gmock-more-actions.h(187) : コンパイルされたクラスの テンプレート のインスタンス化 'Result testing::internal::ActionHelper<Result,testing::SetArrayArgumentActionP2<1,int *,int *>::gmock_Impl<F>>::Perform<A1,A2,A3>(Impl *,const std::tuple<A1,A2,A3> &)' の参照を確認してください
+                 with
+                 [
+                     Result=void
+         ,            F=MyFunction
+         ,            A1=bool
+         ,            A2=int *
+         ,            A3=char *
+         ,            Impl=testing::SetArrayArgumentActionP2<1,int *,int *>::gmock_Impl<MyFunction >
+                 ]
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\include\gmock/gmock-more-actions.h(187) : コンパイルされたクラスの テンプレート のインスタンス化 'Result testing::internal::ActionHelper<Result,testing::SetArrayArgumentActionP2<1,int *,int *>::gmock_Impl<F>>::Perform<A1,A2,A3>(Impl *,const std::tuple<A1,A2,A3> &)' の参照を確認してください
+                 with
+                 [
+                     Result=void
+         ,            F=MyFunction
+         ,            A1=bool
+         ,            A2=int *
+         ,            A3=char *
+         ,            Impl=testing::SetArrayArgumentActionP2<1,int *,int *>::gmock_Impl<MyFunction >
+                 ]
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\include\gmock/gmock-more-actions.h(187): クラス テンプレート のメンバー関数 'void testing::SetArrayArgumentActionP2<1,int *,int *>::gmock_Impl<F>::Perform(const std::tuple<A1,A2,A3> &)' のコンパイル中
+                 with
+                 [
+                     F=MyFunction
+         ,            A1=bool
+         ,            A2=int *
+         ,            A3=char *
+                 ]
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\include\gmock/gmock-more-actions.h(187) : コンパイルされたクラスの テンプレート のインスタンス化 'testing::SetArrayArgumentActionP2<1,int *,int *>::gmock_Impl<F>' の参照を確認してください
+                 with
+                 [
+                     F=MyFunction
+                 ]
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-more-actions_test.cc(621) : コンパイルされたクラスの テンプレート のインスタンス化 'testing::SetArrayArgumentActionP2<1,int *,int *>::operator testing::Action<MyFunction>(void) const<MyFunction>' の参照を確認してください
+                 C:\src\c++\gmock-1.7.0\gmock-1.7.0\test/gmock-more-actions_test.cc(621) : コンパイルされたクラスの テンプレート のインスタンス化 'testing::SetArrayArgumentActionP2<1,int *,int *>::operator testing::Action<MyFunction>(void) const<MyFunction>' の参照を確認してください
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 'std::_Copy_impl' の宣言を確認してください。
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 'std::_Copy_impl' の宣言を確認してください。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\x64\Debug\gmock_test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\x64\Debug\gmock_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\x64\Debug\gmock_test.lib" /MACHINE:X64 x64\Debug\gmock_all_test.obj
+         "C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\x64\Debug\gmock.lib"
+         "C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\x64\Debug\gmock_main.lib"
+     1>gmock.lib(gmock-all.obj) : warning LNK4204: 'C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\x64\Debug\vc120.pdb' に参照するモジュールのデバッグ情報がありません。デバッグ情報を無視してオブジェクトをリンクします。
+     1>gmock.lib(gtest-all.obj) : warning LNK4204: 'C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\x64\Debug\vc120.pdb' に参照するモジュールのデバッグ情報がありません。デバッグ情報を無視してオブジェクトをリンクします。
+         gmock_test.vcxproj -> C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\x64\Debug\gmock_test.exe
+     1>プロジェクト "C:\src\c++\gmock-1.7.0\gmock-1.7.0\msvc\2010\gmock_test.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:52.95
