@@ -22,3 +22,8 @@
 *.opensdf
 *.sdf
 *.suo
+*.tlog
+*.log
+*.pdb
+*.idb
+boostCharacterizationTest/
