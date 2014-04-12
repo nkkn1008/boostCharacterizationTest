@@ -26,4 +26,4 @@
 *.log
 *.pdb
 *.idb
-boostCharacterizationTest/
+*.ilk
