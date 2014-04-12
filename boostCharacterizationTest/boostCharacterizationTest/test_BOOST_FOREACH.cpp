@@ -5,7 +5,7 @@
 using ::testing::StrEq;
 
 namespace{
-	TEST(boostTest, test_BOOST_FOREACH){
+	TEST(test_BOOST_FOREACH, simple_iterate){
 		const int ar[] = { 3, 1, 4 };
 		std::stringstream sut;
 
