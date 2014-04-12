@@ -7,11 +7,11 @@ using ::testing::StrEq;
 namespace{
 	TEST(test_BOOST_FOREACH, simple_iterate){
 		const int ar[] = { 3, 1, 4 };
-		std::stringstream sut;
+		std::stringstream actual;
 
 		BOOST_FOREACH(int x, ar){
-			sut << x << ",";
+			actual << x << ",";
 		}
-		ASSERT_THAT(sut.str(), StrEq("3,1,4,"));
+		ASSERT_THAT(actual.str(), StrEq("3,1,4,"));
 	}
 }
