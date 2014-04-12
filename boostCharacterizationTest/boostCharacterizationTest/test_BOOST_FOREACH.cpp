@@ -4,12 +4,14 @@
 
 using ::testing::StrEq;
 
-TEST(boostTest, test_BOOST_FOREACH){
-	const int ar[] = { 3, 1, 4 };
-	std::stringstream sut;
+namespace{
+	TEST(boostTest, test_BOOST_FOREACH){
+		const int ar[] = { 3, 1, 4 };
+		std::stringstream sut;
 
-	BOOST_FOREACH(int x, ar){
-		sut << x << ",";
+		BOOST_FOREACH(int x, ar){
+			sut << x << ",";
+		}
+		ASSERT_THAT(sut.str(), StrEq("3,1,4,"));
 	}
-	ASSERT_THAT(sut.str(), StrEq("3,1,4,"));
 }
