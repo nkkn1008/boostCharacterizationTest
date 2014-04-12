@@ -1,6 +1,6 @@
 #include <iostream>
-#include <gmock\gmock.h>
-#include <boost\foreach.hpp>
+#include <gmock/gmock.h>
+#include <boost/foreach.hpp>
 
 using ::testing::StrEq;
 
