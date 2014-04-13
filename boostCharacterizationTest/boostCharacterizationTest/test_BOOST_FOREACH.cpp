@@ -4,6 +4,7 @@
 
 #include <gmock/gmock.h>
 #include <boost/foreach.hpp>
+#include <boost/assign/list_of.hpp>
 
 using ::testing::StrEq;
 
@@ -45,4 +46,20 @@ namespace{
 		}
 		ASSERT_THAT(actual.str(), StrEq("1,b,3,a,4,c,"));
 	}
+
+	TEST(test_BOOST_FOREACH, 2D_array_iterate){
+		std::stringstream actual;
+		std::vector<std::vector<int>> v;
+		
+		v.push_back(boost::assign::list_of(1)(10));
+		v.push_back(boost::assign::list_of(2)(20));
+
+		BOOST_FOREACH(std::vector<int> const &x, v){
+			BOOST_FOREACH(int y, x){
+				actual << y << ",";
+			}
+		}
+		ASSERT_THAT(actual.str(), StrEq("1,10,2,20,"));
+	}
+
 }
