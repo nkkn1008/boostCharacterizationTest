@@ -157,6 +157,7 @@
     <ClCompile Include="boostCharacterizationTest.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="test_BOOST_FOREACH.cpp" />
+    <ClCompile Include="test_string_format.cpp" />
     <ClCompile Include="test_string_handling.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
