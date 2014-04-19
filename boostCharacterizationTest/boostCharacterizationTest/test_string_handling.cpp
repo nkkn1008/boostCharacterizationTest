@@ -5,10 +5,9 @@
 #include <gtest/gtest.h>
 
 #include <boost/algorithm/string/trim.hpp>
-#include <boost/algorithm/string/classification.hpp>
 #include <boost/algorithm/string/split.hpp>
-#include <boost/range/algorithm/for_each.hpp>
 #include <boost/assign/list_of.hpp>
+#include <boost/algorithm/string/join.hpp>
 
 using ::testing::Eq;
 using ::testing::StrEq;
@@ -39,6 +38,13 @@ namespace{
 		boost::algorithm::split(actual, s, boost::is_any_of("/ "));
 
 		ASSERT_THAT(actual, Eq(expected));
+	}
+
+	TEST(test_string_handling, join){
+		const std::vector<std::string> v = {"a", "b", "c"};
+
+		const std::string actual = boost::algorithm::join(v, ",");
+		ASSERT_THAT(actual, StrEq("a,b,c"));
 	}
 
 }
