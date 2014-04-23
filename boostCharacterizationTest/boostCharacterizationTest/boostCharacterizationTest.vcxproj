@@ -157,6 +157,7 @@
     <ClCompile Include="boostCharacterizationTest.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="test_BOOST_FOREACH.cpp" />
+    <ClCompile Include="test_Function_Pointer.cpp" />
     <ClCompile Include="test_string_format.cpp" />
     <ClCompile Include="test_string_handling.cpp" />
     <ClCompile Include="test_tuple.cpp" />
